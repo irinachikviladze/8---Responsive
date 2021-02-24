@@ -1,0 +1,52 @@
+/* header responsive */
+@media (max-width:700px){
+    .navigation2{
+        display: none;
+    }
+    .burger-icon{
+        display:block;
+    }
+}
+/* section 2 responsive */ 
+@media (max-width:1012px){
+    .box-wraper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .right-side {
+        margin-top: 30px;
+    }
+}
+@media (max-width:545px){
+    .div1{
+        width:300px;
+    }
+    .div2{
+        width:300px;
+    }
+    .text-1{
+        font-size: 40px;
+    }
+    .paragraph1{
+        font-size: 15px;
+    }
+}
+/* section 3 responsive */
+@media (max-width:780px){
+    .title-container{
+        width:400px;
+    }
+    .p1{
+        font-size: 14px;
+    }
+}
+@media (max-width:458px){
+    .title-container{
+        width:320px;
+    
+    }
+    .p1{
+        font-size: 12px;
+        line-height:20px;
+    }
+}

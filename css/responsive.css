@@ -20,6 +20,7 @@
 @media (max-width:545px){
     .div1{
         width:300px;
+        justify-content: center;
     }
     .div2{
         width:300px;
@@ -48,5 +49,22 @@
     .p1{
         font-size: 12px;
         line-height:20px;
+    }
+}
+@media (max-width:485px){
+    .div1{
+        width:200px;
+        font-size: 25px;
+    }
+    .div2{
+        align-items: center;
+        width:200px;
+        font-size: 12px;
+    }
+    .text-1{
+        font-size: 30px;
+    }
+    .paragraph1{
+        font-size: 13px;
     }
 }
